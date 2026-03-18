@@ -18,4 +18,9 @@ public class Path : MonoBehaviour
             }
         }
     }
+
+    public Vector3 GetWaypointPosition(int index)
+    {
+        return waypoints[index].position;
+    }
 }
